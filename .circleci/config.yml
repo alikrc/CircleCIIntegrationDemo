@@ -4,7 +4,7 @@ version: 2.1
 workflows:
   example-workflow:
     jobs:
-      - acunetix-360/acunetix-360:
+      - acunetix-360/scan:
           api_url: https://online.acunetix360.com
           website_id: 19084b2b-4941-4d31-85a4-ab4102a4c135
           scan_type: FullWithPrimaryProfile
